@@ -9,5 +9,3 @@ C:\Users\My computer\source\repos\Wform\Wform\obj\Debug\Wform.csproj.CoreCompile
 C:\Users\My computer\source\repos\Wform\Wform\obj\Debug\Wform.exe
 C:\Users\My computer\source\repos\Wform\Wform\obj\Debug\Wform.pdb
 C:\Users\My computer\source\repos\Wform\Wform\obj\Debug\Wform.Form2.resources
-C:\Users\My computer\source\repos\Wform\Wform\obj\Debug\Wform.Form3.resources
-C:\Users\My computer\source\repos\Wform\Wform\obj\Debug\Wform.Form4.resources
