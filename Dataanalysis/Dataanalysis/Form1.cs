@@ -136,6 +136,7 @@ namespace Dataanalysis
 		{
 			Graph g = new Graph();
 			g.Show();
+			/*
 			g.dataGV.ColumnCount = 9;
 			g.dataGV.Columns[0].Name = "Time Interval";
 			g.dataGV.Columns[1].Name = "Heart Rate";
@@ -163,7 +164,7 @@ namespace Dataanalysis
 
 				
 			}
-			
+			*/
 
 		}
 

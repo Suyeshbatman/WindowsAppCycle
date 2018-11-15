@@ -11,3 +11,4 @@ C:\Users\My computer\source\repos\Dataanalysis\Dataanalysis\obj\Debug\Dataanalys
 C:\Users\My computer\source\repos\Dataanalysis\Dataanalysis\obj\Debug\Dataanalysis.Graph.resources
 C:\Users\My computer\source\repos\Dataanalysis\Dataanalysis\bin\Debug\ZedGraph.dll
 C:\Users\My computer\source\repos\Dataanalysis\Dataanalysis\obj\Debug\Dataanalysis.csproj.CopyComplete
+C:\Users\My computer\source\repos\Dataanalysis\Dataanalysis\bin\Debug\ZedGraph.Web.dll
