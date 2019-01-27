@@ -97,10 +97,35 @@ namespace CycleDataAnalysis
         Form2 newgraph = new Form2();
 
 
-        public Form1()
+
+		/// these are the vatiable declarations
+		/// utilized for the list values so that the 
+		/// calculation of intervals can be done easily
+		/// </summary>
+		//public static List<List<double>> intervalValues = new List<List<double>>();
+		public static List<double> powerData = new List<double>(); // used in interval detection as well 
+		public static List<double> intervalDetectionData = new List<double>(); // interval detection 
+		public static List<double> powerInterval = new List<double>(); // interval detection 
+		public static double threholdValueGlobal;  // interval detection 
+		List<double> powerDataSlt = new List<double>();
+
+
+		/// the declaration for the advanced matrix 
+		/// these values are stored here and later called from the 
+		/// advaced matrix form 
+		/// </summary>
+		public static double ftpGlobal { get; set; }
+		public static double ifGlobal { get; set; }
+		public static double tssGlobal { get; set; }
+		public static double avgPowerGlobal { get; set; }
+		public static double normalizationPowerGlobal { get; set; }
+
+
+		public Form1()
         {
             InitializeComponent();
             zedGraphControl1.Visible = false; //Graph panel not visible until file is loaded
+			richTextBox1.Visible = false;
         }
 
         /// <summary>
@@ -627,6 +652,7 @@ namespace CycleDataAnalysis
                 labelnp.Text = NP.ToString("0 watts");
                 labelnp.Visible = true;
             }
+			intervalDetection();
         }
 
        
@@ -1228,7 +1254,21 @@ namespace CycleDataAnalysis
 
         }
 
-        private void tssbtn_Click(object sender, EventArgs e)
+		private void button1_Click(object sender, EventArgs e)
+		{
+			CompareFiles f3 = new CompareFiles();
+			f3.Show();
+		}
+
+		private void metroButton1_Click(object sender, EventArgs e)
+		{
+			
+				Interval i = new Interval();
+				i.Show();
+			
+		}
+
+		private void tssbtn_Click(object sender, EventArgs e)
         {
             IntensityFactor();
             TSS();
@@ -1249,7 +1289,12 @@ namespace CycleDataAnalysis
             intervalpicker();
         }
 
-        private void intervalbck_Click(object sender, EventArgs e)
+		private void ftpbox_TextChanged(object sender, EventArgs e)
+		{
+
+		}
+
+		private void intervalbck_Click(object sender, EventArgs e)
         {
             intcounter--;
             if (intcounter == 0 || intcounter < 0)
@@ -1443,7 +1488,87 @@ namespace CycleDataAnalysis
             AvgSP = Math.Round(AvgSP, 2);
             AvgSPLabel.Text = "Average Speed: " + AvgSP.ToString();
         }
+		public void intervalDetection()
+		{
+			double threholdPowVal = Math.Round((105 * ftpGlobal) / 100, 2);
+			int powerDown = 1;
+			int powerUp = 1;
+			double intervalVal = 0;
+			try
+			{
+				foreach (double powerDataV in powerData)
+				{
+					if (threholdPowVal >= powerDataV)
+					{
+						powerDown = 1;
+					}
+					if (powerDown == 1)
+					{
+						if (threholdPowVal <= powerDataV)
+							powerUp = 1;
+					}
+					if (powerUp == 1)
+					{
+						intervalVal++;
+						powerUp = 0;
+						powerDown = 0;
+					}
+					intervalDetectionData.Add(intervalVal);
+					powerInterval.Add(powerDataV);
+					threholdValueGlobal = threholdPowVal;
 
-    }
+					//MessageBox.Show(intervalVal.ToString() + " "+threholdPowVal + " " + powerDataV);
+				}
+			}
+			catch (Exception ex)
+			{
+				MessageBox.Show("Some errors ocurred \n " + ex);
+			}
+
+
+		}
+
+		public void intervalDetectionSlt()
+		{
+
+			double threholdPowVal = Math.Round((105 * ftpGlobal) / 100, 2);
+			int powerDown = 1;
+			int powerUp = 1;
+			double intervalVal = 0;
+			try
+			{
+
+			}
+			catch (Exception ex)
+			{
+				MessageBox.Show(ex.Message);
+			}
+			foreach (double powerDataV in powerData)
+			{
+				if (threholdPowVal >= powerDataV)
+				{
+					powerDown = 1;
+				}
+				if (powerDown == 1)
+				{
+					if (threholdPowVal <= powerDataV)
+						powerUp = 1;
+				}
+				if (powerUp == 1)
+				{
+					intervalVal++;
+					powerUp = 0;
+					powerDown = 0;
+				}
+				intervalDetectionData.Add(intervalVal);
+				powerInterval.Add(powerDataV);
+				threholdValueGlobal = threholdPowVal;
+
+				//MessageBox.Show(intervalVal.ToString() + " "+threholdPowVal + " " + powerDataV);
+			}
+
+		}
+
+	}
 
 } 

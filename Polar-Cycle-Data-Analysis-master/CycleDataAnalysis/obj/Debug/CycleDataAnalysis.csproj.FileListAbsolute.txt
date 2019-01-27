@@ -155,3 +155,37 @@ C:\Users\limhz\Desktop\Polar-Cycle-Data-Analysis-master\CycleDataAnalysis\obj\De
 C:\Users\limhz\Desktop\Polar-Cycle-Data-Analysis-master\CycleDataAnalysis\obj\Debug\CycleDataAnalysis.Form2.resources
 C:\Users\limhz\Desktop\Polar-Cycle-Data-Analysis-master\CycleDataAnalysis\obj\Debug\CycleDataAnalysis.Properties.Resources.resources
 C:\Users\limhz\Desktop\Polar-Cycle-Data-Analysis-master\CycleDataAnalysis\obj\Debug\CycleDataAnalysis.csproj.GenerateResource.Cache
+C:\Users\My computer\Downloads\Polar-Cycle-Data-Analysis-master\CycleDataAnalysis\bin\Debug\CycleDataAnalysis.exe.config
+C:\Users\My computer\Downloads\Polar-Cycle-Data-Analysis-master\CycleDataAnalysis\bin\Debug\CycleDataAnalysis.exe
+C:\Users\My computer\Downloads\Polar-Cycle-Data-Analysis-master\CycleDataAnalysis\bin\Debug\CycleDataAnalysis.pdb
+C:\Users\My computer\Downloads\Polar-Cycle-Data-Analysis-master\CycleDataAnalysis\bin\Debug\ZedGraph.dll
+C:\Users\My computer\Downloads\Polar-Cycle-Data-Analysis-master\CycleDataAnalysis\bin\Debug\ZedGraph.xml
+C:\Users\My computer\Downloads\Polar-Cycle-Data-Analysis-master\CycleDataAnalysis\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\My computer\Downloads\Polar-Cycle-Data-Analysis-master\CycleDataAnalysis\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\My computer\Downloads\Polar-Cycle-Data-Analysis-master\CycleDataAnalysis\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\My computer\Downloads\Polar-Cycle-Data-Analysis-master\CycleDataAnalysis\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\My computer\Downloads\Polar-Cycle-Data-Analysis-master\CycleDataAnalysis\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\My computer\Downloads\Polar-Cycle-Data-Analysis-master\CycleDataAnalysis\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\My computer\Downloads\Polar-Cycle-Data-Analysis-master\CycleDataAnalysis\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\My computer\Downloads\Polar-Cycle-Data-Analysis-master\CycleDataAnalysis\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\My computer\Downloads\Polar-Cycle-Data-Analysis-master\CycleDataAnalysis\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\My computer\Downloads\Polar-Cycle-Data-Analysis-master\CycleDataAnalysis\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\My computer\Downloads\Polar-Cycle-Data-Analysis-master\CycleDataAnalysis\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\My computer\Downloads\Polar-Cycle-Data-Analysis-master\CycleDataAnalysis\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\My computer\Downloads\Polar-Cycle-Data-Analysis-master\CycleDataAnalysis\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\My computer\Downloads\Polar-Cycle-Data-Analysis-master\CycleDataAnalysis\obj\Debug\CycleDataAnalysis.csprojAssemblyReference.cache
+C:\Users\My computer\Downloads\Polar-Cycle-Data-Analysis-master\CycleDataAnalysis\obj\Debug\CycleDataAnalysis.Form1.resources
+C:\Users\My computer\Downloads\Polar-Cycle-Data-Analysis-master\CycleDataAnalysis\obj\Debug\CycleDataAnalysis.Form2.resources
+C:\Users\My computer\Downloads\Polar-Cycle-Data-Analysis-master\CycleDataAnalysis\obj\Debug\CycleDataAnalysis.Properties.Resources.resources
+C:\Users\My computer\Downloads\Polar-Cycle-Data-Analysis-master\CycleDataAnalysis\obj\Debug\CycleDataAnalysis.csproj.GenerateResource.cache
+C:\Users\My computer\Downloads\Polar-Cycle-Data-Analysis-master\CycleDataAnalysis\obj\Debug\CycleDataAnalysis.csproj.CoreCompileInputs.cache
+C:\Users\My computer\Downloads\Polar-Cycle-Data-Analysis-master\CycleDataAnalysis\obj\Debug\CycleDataAnalysis.csproj.CopyComplete
+C:\Users\My computer\Downloads\Polar-Cycle-Data-Analysis-master\CycleDataAnalysis\obj\Debug\CycleDataAnalysis.exe
+C:\Users\My computer\Downloads\Polar-Cycle-Data-Analysis-master\CycleDataAnalysis\obj\Debug\CycleDataAnalysis.pdb
+C:\Users\My computer\Downloads\Polar-Cycle-Data-Analysis-master\CycleDataAnalysis\obj\Debug\CycleDataAnalysis.MultipleFile.resources
+C:\Users\My computer\Downloads\Polar-Cycle-Data-Analysis-master\CycleDataAnalysis\bin\Debug\MetroFramework.dll
+C:\Users\My computer\Downloads\Polar-Cycle-Data-Analysis-master\CycleDataAnalysis\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\My computer\Downloads\Polar-Cycle-Data-Analysis-master\CycleDataAnalysis\obj\Debug\CycleDataAnalysis.CompareFiles.resources
+C:\Users\My computer\Downloads\Polar-Cycle-Data-Analysis-master\CycleDataAnalysis\obj\Debug\CycleDataAnalysis.Interval.resources
+C:\Users\My computer\Downloads\Polar-Cycle-Data-Analysis-master\CycleDataAnalysis\obj\Debug\CycleDataAnalysis.Chunk.resources
+C:\Users\My computer\Downloads\Polar-Cycle-Data-Analysis-master\CycleDataAnalysis\obj\Debug\CycleDataAnalysis.ChunkSummary.resources

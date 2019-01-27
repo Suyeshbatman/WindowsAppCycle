@@ -33,6 +33,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroFramework.RunTime.1.2.0.3\lib\net40-Client\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroFramework.Design.1.2.0.3\lib\net40\MetroFramework.Design.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroFramework.Fonts.1.2.0.3\lib\net40\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -50,6 +60,24 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Chunk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chunk.Designer.cs">
+      <DependentUpon>Chunk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChunkSummary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChunkSummary.Designer.cs">
+      <DependentUpon>ChunkSummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CompareFiles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CompareFiles.Designer.cs">
+      <DependentUpon>CompareFiles.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,13 +90,40 @@
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Interval.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interval.Designer.cs">
+      <DependentUpon>Interval.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MultipleFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MultipleFile.Designer.cs">
+      <DependentUpon>MultipleFile.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Chunk.resx">
+      <DependentUpon>Chunk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChunkSummary.resx">
+      <DependentUpon>ChunkSummary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CompareFiles.resx">
+      <DependentUpon>CompareFiles.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interval.resx">
+      <DependentUpon>Interval.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MultipleFile.resx">
+      <DependentUpon>MultipleFile.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -97,6 +152,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="License-LGPL.txt" />
+    <Content Include="MetroFramework.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
